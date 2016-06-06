@@ -1,0 +1,36 @@
+{
+  "name": "anternet-peer",
+  "version": "0.1.0",
+  "description": "Anternet peer extension.",
+  "keywords": [
+    "anternet",
+    "peer",
+    "p2p",
+    "udp"
+  ],
+  "main": "peer.js",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Moshe Simantov <ms@development.co.il> (https://github.com/moshest)",
+  "license": "MIT",
+  "dependencies": {
+    "anternet": ">=0.3.1",
+    "ip": "^1.1.3"
+  },
+  "devDependencies": {
+    "eslint": "^2.10.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-config-airbnb-base": "^3.0.1",
+    "eslint-plugin-import": "^1.8.0",
+    "mocha": "^2.4.5",
+    "mocha-eslint": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Anternet/anternet-peer.js.git"
+  }
+}
